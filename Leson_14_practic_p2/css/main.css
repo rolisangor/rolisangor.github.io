@@ -22,9 +22,7 @@ body {
 .container {
   padding: 0;
 }
-.arm {
-  border: 1px solid #ff0000;
-}
+
 .btn {
   background-color: #f8af01;
   color: #fff;
