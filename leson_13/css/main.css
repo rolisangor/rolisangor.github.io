@@ -6,7 +6,7 @@
 .container {
   width: 570px;
   height: 570px;
-  background-image: url('https://github.com/rolisangor/rolisangor.github.io/blob/master/leson_13/src/img/bg.png');
+  background-image: url('../img/bg.png');
   margin: auto;
   margin-top: 0;
 }
