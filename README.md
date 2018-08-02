@@ -7,4 +7,7 @@
 [Практика. Часть 1](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_14)- Верстка шапки сайта. [Результат](https://rolisangor.github.io/Leson_14/)
 
 
-[Урок 14](https://github.com/rolisangor/rolisangor.github.io/tree/master/fonts-viewer)- Подключение шрифтов. [Результат](https://rolisangor.github.io/fonts-viewer/)
+[Урок 14](https://github.com/rolisangor/rolisangor.github.io/tree/master/fonts-viewer)- Практика. Часть 1. [Результат](https://rolisangor.github.io/fonts-viewer/)
+
+
+[Урок 14](https://github.com/rolisangor/rolisangor.github.io/tree/master/fonts-viewer)- Практика. Часть 2. [Результат](https://rolisangor.github.io/fonts-viewer/)
