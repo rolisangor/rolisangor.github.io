@@ -142,6 +142,7 @@ body {
   font-size: 1.6rem;
   font-family: 'ProximaNova_bold', sans-serif;
   text-transform: uppercase;
+  padding: 1.7rem;
 }
 .box-form .form-text-bottom {
   display: block;
