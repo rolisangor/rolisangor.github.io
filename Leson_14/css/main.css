@@ -1,9 +1,7 @@
 html {
   font-size: 10px;
 }
-.arm {
-  border: 1px solid #ff0000;
-}
+
 .container {
   padding: 0;
 }
@@ -44,7 +42,7 @@ html {
 }
 .main {
   padding: 3rem 0;
-  background-image: url(/img/bg-h.png);
+  background-image: url(../img/bg-h.png);
   background-repeat: no-repeat;
   background-position: center;
 }
