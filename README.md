@@ -14,3 +14,7 @@
 
 
 [Урок 15](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_15)- Псевдоклассы. [Результат](https://rolisangor.github.io/Leson_15/)
+
+
+[Урок 15](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_15_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_15_practic_p1/)
+
