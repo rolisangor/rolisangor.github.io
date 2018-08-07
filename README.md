@@ -18,3 +18,5 @@
 
 [Урок 15](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_15_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_15_practic_p1/)
 
+
+[Урок 16](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_16_practic_p2)- Практика. Часть 2. [Результат](https://rolisangor.github.io/Leson_16_practic_p2/)
