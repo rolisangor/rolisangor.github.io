@@ -37,4 +37,4 @@
 [Урок 18](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_18_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_18_practic_p1/)
 
 
-[Урок 18](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_19)- Анимация на CSS3 [Результат](https://rolisangor.github.io/Leson_19/)
+[Урок 19](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_19)- Анимация на CSS3 [Результат](https://rolisangor.github.io/Leson_19/)
