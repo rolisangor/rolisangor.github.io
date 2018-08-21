@@ -53,3 +53,6 @@
 
 
 [Урок 21](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_21_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_21_practic_p1/)
+
+
+[Урок 22](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_22)- Map. [Результат](https://rolisangor.github.io/Leson_22/)
