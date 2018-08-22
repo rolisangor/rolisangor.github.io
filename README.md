@@ -56,3 +56,6 @@
 
 
 [Урок 22](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_22)- Map. [Результат](https://rolisangor.github.io/Leson_22/)
+
+
+[Урок 22](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_22_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_22_practic_p/)
