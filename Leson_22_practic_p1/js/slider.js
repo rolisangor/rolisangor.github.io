@@ -58,6 +58,6 @@ $('.future-slider').slick({
 });
 
 $('.reviews-slider').slick({
-  prevArrow: '<button type="button" class="rev-prev"><img src="../img/sectionReviews/bp.png" alt=""></button>',
-  nextArrow: '<button type="button" class="rev-next"><img src="../img/sectionReviews/bn.png" alt=""></button>'
+  prevArrow: '<button type="button" class="rev-prev"><img src="../img/sectionReviews/bp.svg" alt=""></button>',
+  nextArrow: '<button type="button" class="rev-next"><img src="../img/sectionReviews/bn.svg" alt=""></button>'
 })
