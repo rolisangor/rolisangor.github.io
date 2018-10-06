@@ -59,3 +59,5 @@
 
 
 [Урок 22](https://github.com/rolisangor/rolisangor.github.io/tree/master/Leson_22_practic_p1)- Практика. Часть 1. [Результат](https://rolisangor.github.io/Leson_22_practic_p1/)
+
+[test](https://github.com/rolisangor/java4.0/tree/master/lesson-2)
