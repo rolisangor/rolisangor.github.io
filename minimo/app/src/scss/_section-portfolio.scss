@@ -1,0 +1,52 @@
+.portfolio {
+	@include wrapper();
+	padding-top: 50px;
+	padding-bottom: 115px;
+
+	&__category {
+		@extend .blog__category;
+		margin-top: 23px;
+	}
+
+	&__title {
+		margin-top: 18px;
+		@include xs(font-size, 23px);
+
+	}
+
+	&__content {
+		margin-top: 29px;
+		line-height: 24px;
+	}
+}
+
+.btn-wrapper {
+	text-align: center;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.portfolio__btn {
+	background-color: transparent;
+	padding: 15px 30px;
+	font-size: 20px;
+	color: $grey;
+	border: 1px solid $grey;
+	cursor: pointer;
+	&:hover {
+		border: 2px solid $grey;
+		margin-top: -2px;
+		color: darken($grey, 20%);
+	}
+}
+
+.portfolio__wrapper {
+	@include row-flex();
+}
+
+.portfolio-content__wrapper {
+	@include col();
+	@include size(6);
+	@include size-xs(12);
+	margin: 40px auto;
+}	

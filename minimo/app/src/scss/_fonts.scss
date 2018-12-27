@@ -1,0 +1,22 @@
+// Default Fonts
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/Ubuntu/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/Playfair-Display/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/Playfair-Display/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Playfair-Display/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/Playfair-Display/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/Playfair-Display/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

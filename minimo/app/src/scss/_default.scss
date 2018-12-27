@@ -1,0 +1,16 @@
+@import 'smart-grid';
+@include reset();
+
+input, textarea, button {
+	outline: none;
+}
+
+body {
+	font-size: 14px;
+	font-family: $playfair;
+	color: $grey;
+}
+
+h2 {
+	font-size: 30px;
+}

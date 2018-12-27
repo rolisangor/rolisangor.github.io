@@ -1,0 +1,23 @@
+.blog {
+	@include wrapper();
+	padding-top: 47px;
+	
+	&__category {
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: $ubuntu;
+		color: $light;
+	}
+	&__title {
+		margin-top: 17px;
+		@include xs(font-size, 18px)
+	}
+	&__content {
+		margin-top: 28px;
+		line-height: 24px;
+	}
+	&__comment {
+		@extend .blog__category;
+		margin-top: 43px;
+	}
+}
