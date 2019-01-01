@@ -9,9 +9,9 @@
 ![Image Minimo](https://rolisangor.github.io/Gipsolit/gipsolit.png)
 
 
-##                  [Gipsolit ](https://rolisangor.github.io/Irvas/)  
+##                  [Irvas ](https://rolisangor.github.io/Irvas/)  
 ![Image Minimo](https://rolisangor.github.io/Irvas/irvas.png)
 
 
-##                  [Gipsolit ](https://rolisangor.github.io/VrBox/)  
+##                  [Virtual Reality ](https://rolisangor.github.io/VrBox/)  
 ![Image Minimo](https://rolisangor.github.io/VrBox/VRBox.png)
