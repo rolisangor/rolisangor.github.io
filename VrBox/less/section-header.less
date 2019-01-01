@@ -1,0 +1,48 @@
+.header {
+	background: url(../img/sectionHeader/headerBg.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 197px;
+	.raptor {
+		position: relative;
+		overflow: hidden;
+	}
+	&-title {
+		color:@light;
+	}
+	&-subtitle {
+		color: @light;
+		font-size: 30px;
+		font-weight: 700;
+		background-color: #18a7d0;
+		position: relative;
+		border: 10px solid #18a7d0;
+		display: inline-block;
+		&:after {
+			content: '';
+			position: absolute;
+			border: 22px solid transparent;
+			border-left: 10px solid #18a7d0;
+			right: -42px; 
+			top: -10px;
+		}
+	}
+	&-btn {
+		margin-top: 35px;
+		display: block;
+	}
+	&-glass {
+		display: inline-block;
+		position: relative;
+		margin-top: 50px;
+		margin-left: -5px;
+		z-index: 100;
+		max-width: 70%;
+	}
+	&-raptor {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		max-width: 53%;
+	}
+	
+}

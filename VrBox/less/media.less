@@ -1,0 +1,519 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .xs(); // === Section Navigation ===
+    .navigation {
+        &-logo-text {
+            margin-left: 10px;
+            h5 {
+                font-size: 12px;
+            }
+        }
+        &-logo {
+            max-width: 60px;
+            margin-top: -15px;
+        }
+        &-tel {
+            display: inline-block;
+            font-size: 17px;
+        }
+        a {
+            bottom: 1px;
+            position: relative;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+    }
+    // section footer 
+    .footer {
+        background-color: rgba(0, 0, 0, 1);
+        padding-top: 40px;
+        padding-bottom: 30px;
+        &-tel {
+            display: block;
+            font-size: 25px;
+            font-weight: black;
+            margin-top: 100px;
+        }
+        a {
+            bottom: 1px;
+            position: relative;
+            margin: auto;
+            font-size: 19px;
+            display: block;
+            top: -90px;
+            margin-top: 0px;
+        }
+    }
+
+    // === Section Header ===
+    .header {
+        padding-top: 130px;
+        &-subtitle {
+            font-size: 15px;
+            &:after {
+                border: 20px solid transparent;
+                border-left: 10px solid #18a7d0;
+                right: -39.1px;
+                top: -10px;
+            }
+        }
+        &-btn {
+            .xs-btn();
+        }
+        &-raptor {
+            margin-right: -30px;
+        }
+    } // === Section What-is ===
+    .what-is {
+        .list-price {
+            font-size: 15px;
+        }
+    } // section future
+    .future {
+
+        &-title {
+            margin-left: 50px;
+            &:before {
+                top: -10px;
+                left: -50px;
+                width: 50px;
+                height: 50px;
+                background-size: 50%;
+            }
+        }
+        p {
+            margin-left: 50px;
+        }
+        &-phoneiron {
+            width: 95%;
+        }
+        &-carphone {
+            width: 95%;
+        }
+        .box1 {
+            margin-top: 35px;
+        }
+    }
+    .order {
+        &-subtitle {
+            font-size: 10px;
+            &:after {
+                content: '';
+                position: absolute;
+                border: 30px solid transparent;
+                border-left: 10px solid #18a7d0;
+                right: -50px;
+                top: -10px;
+            }
+        }
+        &-item {
+            font-size: 10px;
+        }
+        &-form {
+            padding: 40px 20px;
+        }
+    } // section work 
+    .work {
+        &-image {
+            min-height: 130px;
+            img {
+                width: 100%;
+            }
+        }
+        &-circle {
+            width: 40px;
+            height: 40px;
+            top: -35px;
+            &-box {
+                width: 20px;
+                height: 20px;
+                top: 50%;
+                left: 20%;
+                font-size: 15px;
+            }
+            &-item {
+                position: relative;
+                right: 5px;
+                top: -10px;
+                color: @light;
+            }
+        }
+    } // section video
+    .video {
+        &-circle {
+            border: 10px solid @light;
+            background: url(../img/sectionVideo/google_play.png) 23px center no-repeat;
+        }
+    } // section game  
+    .game {
+        &-image {
+            min-height: 150px;
+            img {
+                margin-left: 50px;
+                width: 90%;
+            }
+        }
+    } // section feedback 
+    .feedback {
+        &-container {
+            padding: 20px 10px 20px 20px;
+            &-avatar {
+                width: 20%;
+            }
+            &-title {
+                margin-left: 10px;
+                top: 10px;
+                font-size: 14px;
+            }
+            &-text {
+                margin-top: 25px;
+                line-height: 17px;
+                font-size: 11px;
+            }
+        }
+    } // section How 
+    .how {
+        .nr1:before {
+            content: '1.';
+        }
+        .nr2:before {
+            content: '2.';
+        }
+        .nr3:before {
+            content: '3.';
+        }
+        .nr4:before {
+            content: '4.';
+        }
+    }
+    .future-1,
+  	.figure-2,
+  	.figure-3,
+  	.figure-4,
+  	.figure-5,
+  	.figure-6,
+  	.figure-7 {
+  		display: none;
+     
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sm(); // === Section Navigation ===
+    .navigation {
+        &-tel {
+            display: inline-block;
+        }
+        a {
+            bottom: 1px;
+            position: relative;
+            margin-left: 5px;
+        }
+    } // === Section Header ===
+    .header {
+        padding-top: 170px;
+
+        &-subtitle {
+            font-size: 25px;
+        }
+        &-glass {
+            max-width: 55%;
+        }
+        &-raptor {
+            max-width: 45%;
+        }
+        &-btn {
+            .sm-btn();
+        }
+    }
+    // section what-is 
+    .what-is {
+        &-content {
+            max-width: 600px;
+        }
+        .vr-box-image {
+            width: 70%;
+        }
+        .list-price {
+            font-size: 20px;
+        }
+    }
+    .order {
+        &-subtitle {
+            font-size: 15px;
+        }
+    } // section game  
+    .game {
+        &-image {
+
+            img {
+                margin-left: 80px;
+                width: 80%;
+            }
+        }
+    } // section footer 
+    .footer {
+        background-color: rgba(0, 0, 0, 1);
+        padding-top: 40px;
+        padding-bottom: 20px;
+        &-tel {
+            display: block;
+            font-size: 25px;
+            font-weight: black;
+            margin-top: 80px;
+        }
+        a {
+            bottom: 1px;
+            position: relative;
+            margin: auto;
+            font-size: 22px;
+            display: block;
+            top: -90px;
+            margin-top: 0px;
+        }
+    }
+    .future-1,
+    .figure-2,
+    .figure-3,
+    .figure-4,
+    .figure-5,
+    .figure-6,
+    .figure-7 {
+        display: none;
+    }
+} // <---- end small device
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    // === Section Navigation ===
+    .navigation {
+        &-tel {
+            display: inline-block;
+        }
+        a {
+            bottom: 1px;
+            position: relative;
+            margin-left: 5px;
+        }
+    } // === Section Header ===
+    .header {
+        padding-top: 190px;
+        &-title {
+            font-size: 30px;
+        }
+        &-subtitle {
+            font-size: 30px;
+        }
+        &-glass {
+            max-width: 60%;
+        }
+        &-raptor {
+            max-width: 45%;
+        }
+        &-btn {
+            .xl-btn();
+        }
+    }
+
+    // section what-is 
+    .what-is {
+        &-content {
+            max-width: 600px;
+        }
+        .vr-box-image {
+            width: 70%;
+        }
+    } // section future
+    .future {
+        &-carphone {
+            margin-top: -20px;
+        }
+        &-content_right {
+            .box1 {
+                margin-top: 70px;
+            }
+        }
+    } // Section order
+    .order {
+
+        height: auto;
+        &-subtitle {
+            font-size: 20px;
+        }
+        .responsive-order {
+            height: auto;
+        }
+    } // section compatibility
+    .compatibility {
+        &-phone {
+            width: 60%;
+        }
+        &-vr {
+            width: 80%;
+        }
+    } // section game  
+    .game {
+        &-image {
+
+            img {
+                margin-left: 160px;
+                width: 60%;
+            }
+        }
+    } // section footer 
+    .footer {
+        background-color: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .future-1,
+    .figure-2,
+    .figure-3,
+    .figure-4,
+    .figure-5,
+    .figure-6,
+    .figure-7 {
+    	display: none;
+    }
+}
+
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h3 {
+        font-size: 20px;
+    }
+    // Section Header
+    .header {
+        &-glass {
+            max-width: 60%;
+        }
+        &-raptor {
+            max-width: 45%;
+        }
+    }
+    //=== section what-is ===
+    .what-is {
+        &-content {
+            max-width: 800px;
+        }
+        .vr-box-image {
+            width: 90%;
+        }
+    } //section future
+    .future {
+        &-phoneiron {
+            width: 100%;
+        }
+        &-carphone {
+            width: 100%;
+        }
+    } // section game 
+    .game {
+        &-content {
+            font-size: 13px;
+        }
+    } // section footer 
+    .footer {
+        background-color: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+    } 
+    // Figure position 
+    .figure-1 {
+        right: 0;
+        top: -50%;
+    }
+    .figure-2 {
+        left: 0;
+        top: 210%;
+    }
+    .figure-3 {
+        right: 13%;
+        top: -60%;
+    }
+    .figure-4 {
+        right: 0;
+        top: 200%;
+        z-index: 99;
+    }
+    .figure-5 {
+        right: -10%;
+        top: 70%;
+    }
+    .figure-6 {
+        left: 0;
+        top: -170%;
+    }
+} // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    //=== section what-is ===
+    .responsive-vrbox {
+        max-height: 200px;
+    } // section footer 
+    .footer {
+        background-color: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+//=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/==/=/=/=/=/
+@media (max-width: 991.98px) {
+
+    // section what-is 
+    .what-is {
+        &-list {
+            &_item {
+                min-height: 10px;
+            }
+        }
+    } //section future 
+    .future {
+        &-content_right {
+            display: flex;
+            flex-flow: column;
+
+            .box1 {
+                order: 2;
+            }
+            .box2 {
+                order: 1;
+            }
+        }
+    } // section order
+    .order {
+        // padding-left: 100px;
+        height: auto;
+        .responsive-order {
+            height: auto;
+        }
+    } // section game  
+    .game {
+        &-image {
+            left: -80px;
+        }
+    }
+}
+
+
+@media (min-width: 352px) and (max-width: 575.98px) {
+    // section work 
+    .work {
+        &-image {
+            min-height: 145px;
+            img {
+                width: 75%;
+            }
+        }
+    } // section game  
+    .game {
+        &-image {
+            min-height: 180px;
+            img {
+                width: 90%;
+            }
+        }
+    }
+}

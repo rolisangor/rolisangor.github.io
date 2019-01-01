@@ -1,0 +1,23 @@
+.navigation {
+	color: @light;
+	background-color: rgba(0, 0, 0, 0.62);
+	&-logo {
+		margin-top: -25px;
+	}
+	&-logo-text {
+		display: inline-block;
+		text-align: left;
+		p {
+			margin-bottom: 0;
+			line-height: 1.6;
+		}
+	}
+	&-tel {
+		display: block;
+		font-size: 24px;
+		.bold();
+	}
+	a {
+		.call();
+	}
+}
