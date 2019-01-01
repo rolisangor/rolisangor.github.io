@@ -10,8 +10,8 @@
 
 
 ##                  [Irvas ](https://rolisangor.github.io/Irvas/)  
-![Image Minimo](https://rolisangor.github.io/Irvas/irvas.png)
+![Image Minimo](https://rolisangor.github.io/Irvas/Irvas.png)
 
 
 ##                  [Virtual Reality ](https://rolisangor.github.io/VrBox/)  
-![Image Minimo](https://rolisangor.github.io/VrBox/VRBox.png)
+![Image Minimo](https://rolisangor.github.io/VrBox/VRBox.jpg)
