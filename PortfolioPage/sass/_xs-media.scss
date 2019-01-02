@@ -1,0 +1,25 @@
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+// body:before {
+// 	background: url(../img/bg1.jpg) no-repeat center center fixed;	
+// }
+	.intro {
+		&-title {
+			font-size: 25px;
+		}
+		&-subtitle {
+			font-size: 17px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	.portfolio {
+		padding: 45px 10%;
+		.portfolio-title {
+			font-size: 20px;
+		}
+	}
+}

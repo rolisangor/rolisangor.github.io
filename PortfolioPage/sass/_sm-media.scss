@@ -1,0 +1,47 @@
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+	.intro {
+		&-title {
+			font-size: 35px;
+		}
+		&-subtitle {
+			font-size: 17px;
+		}
+	}
+
+	.portfolio {               // section portfolio
+		padding: 45px 70px;
+		.container-foto {
+			grid-template-columns: 1fr;
+			grid-gap: 40px 40px;
+			grid-template-areas: 'agency1'
+													 'agency4'
+													 'agency3'
+													 'agency5'
+													 'agency2'
+													 'agency6';
+													 
+		}
+	}
+
+	.contact {           // Section Contact
+		padding: 20px;
+		&-form {
+			grid-template-columns: 1fr;
+			grid-template-areas: 'first-section'
+													 'second-section'
+													 'section-button';
+			grid-gap: 10px;
+		}
+	}
+
+	.about {                       // Section About
+		.skill-container {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 30px;
+		}
+	}
+}

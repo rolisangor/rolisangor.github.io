@@ -1,0 +1,25 @@
+@media (max-width: 1312px) {
+	nav {
+		display: none;
+	}
+	.menu-small {
+		display: grid;
+	}
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+	.portfolio {                   // section portfolio
+		.container-foto {
+			grid-gap: 30px 30px;							 
+		}
+	}
+
+	.about {                           // Section About
+		.skill-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 30px;
+		}
+	}
+}

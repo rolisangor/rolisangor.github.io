@@ -1,0 +1,382 @@
+@media (min-width: 1200px) {
+	.project {
+		&-img {
+			left: -300px;
+		}
+	}
+}
+@media (min-width: 767.98px) and (max-width: 1200px){
+	.website {
+		padding-bottom: 50px;
+	}
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+	h1{
+		font-size: 46px;
+	}
+
+	/**
+	 * Section About
+	 */
+	.about {
+		&-content {
+			font-size: 30px;
+		}
+	}
+
+	/**
+	 * Section Process
+	 */
+	.process {
+		&-number {
+			&:hover {
+				padding-left: 20px;
+				&:after {
+				}
+				.process-title {
+				}
+				.process-content {
+					p{
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+	/**************
+	 * Section Team
+	 */
+	.team {
+		padding: 80px 0 100px 0;
+   	&-hero-content {
+      	img {
+         	max-width: 290px;
+      	}
+   	}
+	}
+	/*****************
+	 * Section Project
+	 */
+	.project {
+		&-title {
+			padding-top: 70px;
+		}
+	}
+
+	/*****************
+	 * Section WebSite
+	 */
+	.website {
+		&-content {
+			font-size: 18px;
+		}
+	}
+	.layer-3 {
+		right: -10px;
+	}
+}
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+	.header-title{
+		font-size: 31px;
+		letter-spacing: 0;
+	}
+
+	/**
+	 * Section About
+	 */
+	.about {
+		&-content {
+			font-size: 22px;
+		}
+	}
+	.process {
+		&-number {
+			&:hover {
+				padding-left: 30px;
+				&:after {
+				}
+				.process-title {
+				}
+				.process-content {
+					p{
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+	/**************
+	 * Section team
+	 */
+	.team {
+		padding: 80px 0 100px 0;
+   	&-hero-content {
+      	img {
+         	max-width: 330px;
+      	}
+   	}
+	}
+	/*****************
+	 * Section Project
+	 */
+	.project {
+		&-img {
+			width: 100%;
+		}
+	}
+	/*****************
+	 * Section WebSite
+	 */
+	.website {
+		padding-top: 0;
+		&-content {
+			font-size: 18px;
+		}
+		&-wraper-img {
+			margin-top: 150px;
+		}
+	}
+	.layer-3 {
+		right: 0;
+	}
+	/**
+	 * Section Services
+	 */
+	.services {
+		.services-container {
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: auto auto auto;
+			gap: 0 40px;
+			grid-template-areas: 'title content'
+                              'light flash'
+                              'pc infinite';
+		}
+	}
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+	header{
+		.intro{
+			padding-top: 100px;
+		}
+		.header-title{
+			font-size: 25px;
+			line-height: 30px;
+			letter-spacing: 0;
+		}
+	}
+	/**
+	 * Section About
+	 */
+	.about {
+		&-content {
+			font-size: 20px;
+		}
+	}
+	/**
+	 * Section Process
+	 */
+	.process {
+		&-container {
+			max-width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		&-number{
+			padding-left: 50px;
+		}
+	}
+	/**************
+	 * Section team
+	 */
+	.team {
+		padding: 80px 0 100px 0;
+   	&-hero-content {
+      	img {
+         	max-width: 380px;
+      	}
+   	}
+	}
+	/*****************
+	 * Section WebSite
+	 */
+	.website {
+		padding-top: 0;
+		&-content {
+			font-size: 18px;
+		}
+		&-wraper-img {
+			margin-top: 150px;
+		}
+	}
+	.website-wraper-img .layer-1 {
+		min-width: 250px;
+		min-height: 320px;
+	}
+	.layer-2 {
+		left: -190px;
+	}
+	.layer-3 {
+		right: 0;
+	}
+	/**
+	 * Section Services
+	 */
+	.services {
+		.services-container {
+			grid-template: repeat(2, auto) / repeat(2, 1fr);
+			gap: 0 20px;
+			grid-template-areas: 'title content'
+                              'light flash'
+                              'pc infinite';                     
+		}
+		.services-title {
+			h2 {
+				font-size: 30px;
+			}
+		}
+		&-content {
+		   font-size: 13px;
+		}
+		.feature-content {
+			font-size: 10px;
+		}
+	}
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	header {
+		padding-bottom: 100px;
+		.logo{
+			.logo-big{
+				font-size: 25px;
+			}
+			.logo-small{
+				font-size: 16px;
+			}
+		}
+		.social{
+	      height: 100%;
+	      margin-left: 30px;
+      	&-icon{
+	         color: $light;
+	         padding-right: 15px;
+      	}
+   	}
+   	.intro{
+			padding-top: 70px;
+			font-size: 18px;
+		}
+		.header-title{
+			font-size: 20px;
+			line-height: 30px;
+			letter-spacing: 0;
+		}
+	}
+
+	/**
+	 * Section About
+	 */
+	.about {
+		&-content {
+			font-size: 17px;
+		}
+		&-btn {
+			font-size: 16px;
+			padding: 15px 30px;
+		}
+	}
+
+	/**
+	 * Section Process
+	 */
+	.process {
+		&-number{
+			padding-left: 20px;
+		}
+	}
+
+	/**************
+	 * Section team
+	 */
+	.team {
+		padding: 80px 0 100px 0;
+   	&-hero-content {
+      	img {
+         	max-width: 280px;
+      	}
+   	}
+	}
+
+	/*****************
+	 * Section project
+	 */
+	.project {
+		padding-top: 0;
+		&-title {
+			font-size: 30px;
+			line-height: 1.3;
+		}
+		&-content {
+			font-size: 12px;
+			padding-top: 20px;
+			font-weight: 600;
+		}
+	}
+	/*****************
+	 * Section WebSite
+	 */
+	.website {
+		padding-top: 0;
+		&-content {
+			font-size: 12px;
+		}
+		&-wraper-img {
+			margin-top: 150px;
+		}
+	}
+	.layer-2 {
+		left: -50px;
+	}
+	.layer-3 {
+		right: -42px;
+	}
+	.layer-5 {
+		left: -100px;
+	}
+	/**
+	 * Section Services
+	 */
+	.services {
+		text-align: center;
+		.services-container {
+			grid-template: repeat(6, auto) / 1fr;
+			gap: 0 20px;
+			grid-template-areas: 'title'
+										       'content'
+                            'light'
+                            'flash'
+                            'pc'
+                            'infinite';                     
+		}
+		.services-title {
+			h2{
+				font-size: 25px;
+				letter-spacing: 0;
+			}
+		}
+	}
+	.footer {
+		p {
+			line-height: 1;
+		}
+	}
+}

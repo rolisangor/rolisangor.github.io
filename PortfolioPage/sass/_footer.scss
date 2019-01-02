@@ -1,0 +1,39 @@
+.footer {
+	// display: flex;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 30px;
+	@extend .overley;
+	&-info {
+		margin-bottom: 0;
+		padding-top: 10px;
+		a {
+			color: $green;
+			text-decoration: none;
+		}
+		a:visited,
+		a:link,
+		a:active {
+				color: $green;
+				text-decoration: none;
+			}
+	}
+	&-social {
+		ul {
+			// text-align: right;
+			li {
+				display: inline-block;
+				margin: 0 10px 0 10px;
+				a {
+					font-size: 25px;
+					color: $grey;
+					transition: all .2s ease-in;
+				}
+				a:hover {
+					color: $green;
+				}
+			}
+		}
+	}
+}

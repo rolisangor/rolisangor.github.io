@@ -1,0 +1,92 @@
+body {
+	// background: url(../img/bg1.jpg) no-repeat center center;
+ //  background-attachment: fixed;
+	// background-size: cover;
+	font-size: 15px;
+	font-family: $font-raleway;
+	color: $light;
+}
+body:before {
+	content: "";
+	position: absolute;
+	// background-color: rgba(70,70,70, 0.6);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position:fixed;
+	background: url(../img/bg1.png) no-repeat center center;
+  background-attachment: fixed;
+	background-size: cover;
+	// z-index: -1;
+}
+h1 {
+	font-size: 44px;
+	font-weight: $bold;
+	color: $light;
+}
+h2 {
+	font-size: 22px;
+	font-weight: $bold;
+	color: $light;
+}
+h3 {
+	font-size: 16px;
+	font-weight: $bold;
+	color: $light;
+}
+
+.overley {
+	background-color: rgba(21,21,21, 0.6);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.demo-2 #large-header #demo-canvas {
+	z-index: -100;
+	position: absolute;
+	max-width: 100%;
+}
+
+.btn {
+	color: $grey;
+	background-color: transparent;
+	border: 2px solid $grey;
+	font-size: 13px;
+	padding: 8px 15px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+	transition: all .5s;
+	&:hover {
+		color: $green;
+		border: 2px solid $green;
+	}
+}
+
+label {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
+input,
+textarea {
+	padding: 10px 10px;
+	color: $grey;
+	background-color: transparent;
+	border: 2px solid $grey;
+	outline: none;
+	font-weight: $semi-bold;
+	min-width: 100%;
+	transition: border 1.5s;
+	&:focus {
+		border: 2px solid $green;
+	}
+}

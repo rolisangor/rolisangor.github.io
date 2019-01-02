@@ -1,0 +1,15 @@
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+	.portfolio {                   // section portfolio
+		.container-foto {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 40px 40px;
+			grid-template-areas: 'agency1 agency2'
+													 'agency4 agency5'
+													 'agency3 agency6';
+													 
+		}
+	}
+}
+

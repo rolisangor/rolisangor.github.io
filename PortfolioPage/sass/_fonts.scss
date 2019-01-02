@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800');
+@import url('http://weloveiconfonts.com/api/?family=zocial');
+@import url('http://weloveiconfonts.com/api/?family=brandico');
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}

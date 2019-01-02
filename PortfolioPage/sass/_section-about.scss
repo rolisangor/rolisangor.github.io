@@ -1,0 +1,57 @@
+.about {
+	position: relative;
+	margin-top: 200px;
+	padding: 45px;
+	@extend .overley;
+	.text-intro {
+		font-family: $font-libre;
+		font-style: italic;
+		font-size: 18px;
+		margin-top: 40px;
+	}
+	p {
+		margin-top: 20px;
+	}
+	.wrapper-my-foto {
+		border-radius: 100%;
+		overflow: hidden;
+		margin: 40px auto;
+		max-width: 320px;
+		border: 3px solid $green;
+		box-shadow: 0 0 30px 5px rgba( 0, 0, 0, .5)
+	}
+	.my-foto {
+		max-width: 100%;	
+	}
+	&-skill-title {
+		margin-top: 50px;
+	}
+	.skill-icon {
+		display: inline-block;
+		color: $green;
+		font-size: 45px;
+	}
+	.skill-title {
+		display: inline-block;
+		margin-left: 20px;
+		color: $green;
+	}
+	.skill-wraper {
+		display: flex;
+		align-items: center;
+	}
+	.skill-content {
+		margin-left: 50px;
+		p {
+			margin-top: 0;
+		}
+	}
+	.svg-foto {
+		max-width: 20%;
+	}
+	.skill-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 30px;
+	}
+}

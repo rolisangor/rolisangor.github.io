@@ -1,0 +1,37 @@
+.contact {
+	position: relative;
+	margin-top: 200px;
+	padding: 45px;
+	@extend .overley;
+	.contact-icon {
+		margin-bottom: 20px;
+		display: block;
+		color: $green;
+		font-size: 30px;
+	}
+	&-form {
+		display: grid;
+		margin-top: 30px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 'first-section second-section'
+												 'section-button section-button';
+		grid-gap: 20px;
+		label {
+			font-weight: $semi-bold;
+			margin-top: 23px;
+		}
+		.first-section {
+			// display: inline-block;
+			grid-area: first-section;
+		}
+		.second-section {
+			// display: inline-block;
+			grid-area: second-section;
+		}
+		.section-button {
+			display: block;
+			grid-area: section-button;
+			text-align: center;
+		}
+	}
+}
