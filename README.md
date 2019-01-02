@@ -1,7 +1,7 @@
 # My Works
 
 ##                  [Pura Agency ](https://rolisangor.github.io/PuraAgency/)  
-[![Image Minimo](https://rolisangor.github.io/VrBox/PuraAgency.png)](https://rolisangor.github.io/PuraAgency/)  
+[![Image Minimo](https://rolisangor.github.io/PuraAgency/PuraAgency.png)](https://rolisangor.github.io/PuraAgency/)  
 
 #
 
@@ -10,8 +10,8 @@
 
 #
 
-##                  [Virtual Reality ](https://rolisangor.github.io/PortfolioPage/)  
-[![Image Minimo](https://rolisangor.github.io/VrBox/portfolio.png)](https://rolisangor.github.io/PortfolioPage/)  
+##                  [Portfolio Leading Page ](https://rolisangor.github.io/PortfolioPage/)  
+[![Image Minimo](https://rolisangor.github.io/PortfolioPage/portfolio.png)](https://rolisangor.github.io/PortfolioPage/)  
 
 #
 
